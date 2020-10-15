@@ -7,13 +7,11 @@ public class Test {
         Drink drink = new Drink("Mojito", 30, true);
         Drink drink1 = new Drink("Old Fashioned", 50, false);
         Barman barman = new Barman();
-        Barman barman1 = new Barman();
 
-        barman.order(person,drink);
-        barman.order(person1,drink1);
-        barman.order(person,drink1);
-        barman.order(person1,drink);
-
+        barman.order(person, drink);
+        barman.order(person1, drink1);
+        barman.order(person, drink1);
+        barman.order(person1, drink);
 
 
     }

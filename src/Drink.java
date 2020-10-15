@@ -1,7 +1,8 @@
 public class Drink {
+
     private String name;
     private int price;
-    private boolean withAlkohol;
+    private boolean withAlcohol;
 
     public String getName() {
         return name;
@@ -19,17 +20,17 @@ public class Drink {
         this.price = price;
     }
 
-    public boolean withAlkohol() {
-        return withAlkohol;
+    public boolean isWithAlcohol() {
+        return withAlcohol;
     }
 
-    public void setWithAlkohol(boolean withAlkohol) {
-        this.withAlkohol = withAlkohol;
+    public void setWithAlcohol(boolean withAlcohol) {
+        this.withAlcohol = withAlcohol;
     }
 
-    public Drink(String name, int price, boolean withAlkohol) {
+    public Drink(String name, int price, boolean withAlcohol) {
         this.name = name;
         this.price = price;
-        this.withAlkohol = withAlkohol;
+        this.withAlcohol = withAlcohol;
     }
 }
